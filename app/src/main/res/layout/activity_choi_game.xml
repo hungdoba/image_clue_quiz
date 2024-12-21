@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nen_app"
+    tools:context=".ChoiGameActivity">
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+        <TextView
+            android:id="@+id/txvTienNguoiDung"
+            android:text="10"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:minWidth="100dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_tien"
+            android:layout_margin="6dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imgAnhCauDo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cau_chi" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:minHeight="100dp" >
+        <GridView
+            android:id="@+id/gdvCauTraLoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <GridView
+            android:layout_marginBottom="60dp"
+            android:id="@+id/gdvDapAn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="3dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:onClick="moGoiY"
+                android:text="Gợi ý"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:background="@drawable/bg_tien"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="3dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:onClick="doiCauHoi"
+                android:text="Đổi câu hỏi"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:background="@drawable/bg_tien"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

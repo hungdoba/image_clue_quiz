@@ -1,0 +1,52 @@
+[
+  {
+    "text": "",
+    "answer": "cauchi",
+    "image": "@drawable/cau_chi"
+  },
+  {
+    "text": "",
+    "answer": "cuopcong",
+    "image": "@drawable/cuop_cong"
+  },
+  {
+    "text": "",
+    "answer": "cuute",
+    "image": "@drawable/cuu_te"
+  },
+  {
+    "text": "",
+    "answer": "dalat",
+    "image": "@drawable/da_lat"
+  },
+  {
+    "text": "",
+    "answer": "kecong",
+    "image": "@drawable/ke_cong"
+  },
+  {
+    "text": "",
+    "answer": "ketoan",
+    "image": "@drawable/ke_toan"
+  },
+  {
+    "text": "",
+    "answer": "myquan",
+    "image": "@drawable/my_quan"
+  },
+  {
+    "text": "",
+    "answer": "nguloi",
+    "image": "@drawable/ngu_loi"
+  },
+  {
+    "text": "",
+    "answer": "thatthu",
+    "image": "@drawable/that_thu"
+  },
+  {
+    "text": "",
+    "answer": "trungbinh",
+    "image": "@drawable/trung_binh"
+  }
+]
